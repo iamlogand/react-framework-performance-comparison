@@ -1,0 +1,16 @@
+import { Link } from "react-router-dom";
+import Timer from "../../components/Timer";
+
+const Page = () => {
+  return (
+    <main>
+      <h2>Page 1D</h2>
+      <Link to="/1">Go Back</Link>
+
+      <h3>5 second timer</h3>
+      <Timer initialTime={5} />
+    </main>
+  )
+}
+
+export default Page;

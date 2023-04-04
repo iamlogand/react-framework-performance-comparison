@@ -1,0 +1,37 @@
+.calc .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.calc input {
+  width: 80%;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.calc button {
+  width: 25%;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: var(--tertiary-color);
+  border: none;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.calc button:hover {
+  background-color: #ddd;
+}
+
+.calc .buttons-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

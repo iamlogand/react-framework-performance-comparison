@@ -1,0 +1,31 @@
+.navBar {
+  margin-bottom: 20px;
+}
+
+.navBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.navBar li {
+  font-size: 30px;
+  background-color: var(--tertiary-color);
+}
+
+.navBar a {
+  display: block;
+  padding: 15px 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.navBar h1 {
+  font-weight: inherit;
+  font-size: inherit;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}

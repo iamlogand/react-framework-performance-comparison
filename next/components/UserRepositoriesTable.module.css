@@ -1,0 +1,38 @@
+
+.userRepoTable {
+  margin: 2rem 0;
+}
+
+.userRepoTable table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.userRepoTable thead {
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
+}
+
+.userRepoTable th, .userRepoTable  td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.userRepoTable th {
+  font-weight: bold;
+}
+
+.userRepoTable tr:nth-child(even) {
+  background-color: #fdfdfd0e;
+}
+
+.userRepoTable tr:hover {
+  background-color: #ffffff23;
+}
+
+.userRepoTable a:hover {
+  text-decoration: underline;
+}

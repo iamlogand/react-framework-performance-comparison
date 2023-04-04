@@ -1,0 +1,15 @@
+:root {
+  --primary-color: rgb(228, 228, 228);
+  --secondary-color: rgb(37, 37, 37);
+  --tertiary-color: rgb(163, 255, 101);
+}
+
+body {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  color: var(--tertiary-color);
+}
