@@ -44,7 +44,7 @@ const UserRepositoriesTable: React.FC<UserRepositoriesProps> = ({ username }) =>
 
   return (
     <div className={styles.userRepoTable}>
-      <h2>{username}'s Repositories</h2>
+      <h2>{username}&apos;s Repositories</h2>
       <table>
         <thead>
           <tr>

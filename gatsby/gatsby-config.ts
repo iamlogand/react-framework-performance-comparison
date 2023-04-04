@@ -1,9 +1,6 @@
 import type { GatsbyConfig } from "gatsby"
 
 const config: GatsbyConfig = {
-  siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-  },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
@@ -13,17 +10,7 @@ const config: GatsbyConfig = {
     'styled-components',
     'babel-plugin-styled-components',
     'gatsby-plugin-typescript',
-    {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require("postcss-import"),
-          require("postcss-nested"),
-          require("postcss-custom-properties"),
-          require("autoprefixer"),
-        ],
-      },
-    },
+    'gatsby-plugin-postcss'
   ],
 }
 

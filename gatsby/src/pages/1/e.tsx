@@ -18,3 +18,10 @@ const Page = () => {
 }
 
 export default Page;
+
+export const Head = () => (
+  <>
+    <title>Sample App - Gatsby</title>
+    <link rel="icon" href="/lion.ico" />
+  </>
+)

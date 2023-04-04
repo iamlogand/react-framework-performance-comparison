@@ -9,16 +9,16 @@ const Menu = () => {
       <h2>Group 2</h2>
       <Link to="/">Go Back Home</Link>
       <ol>
-        <Link to="/2/a"><li>Page 2A</li></Link>
-        <Link to="/2/b"><li>Page 2B</li></Link>
-        <Link to="/2/c"><li>Page 2C</li></Link>
-        <Link to="/2/d"><li>Page 2D</li></Link>
-        <Link to="/2/e"><li>Page 2E</li></Link>
-        <Link to="/2/f"><li>Page 2F</li></Link>
-        <Link to="/2/g"><li>Page 2G</li></Link>
-        <Link to="/2/h"><li>Page 2H</li></Link>
-        <Link to="/2/i"><li>Page 2I</li></Link>
-        <Link to="/2/j"><li>Page 2J</li></Link>
+        <li><Link to="/2/a">Page 2A</Link></li>
+        <li><Link to="/2/b">Page 2B</Link></li>
+        <li><Link to="/2/c">Page 2C</Link></li>
+        <li><Link to="/2/d">Page 2D</Link></li>
+        <li><Link to="/2/e">Page 2E</Link></li>
+        <li><Link to="/2/f">Page 2F</Link></li>
+        <li><Link to="/2/g">Page 2G</Link></li>
+        <li><Link to="/2/h">Page 2H</Link></li>
+        <li><Link to="/2/i">Page 2I</Link></li>
+        <li><Link to="/2/j">Page 2J</Link></li>
       </ol>
     </main>
     </Layout>
@@ -26,3 +26,10 @@ const Menu = () => {
 }
 
 export default Menu;
+
+export const Head = () => (
+  <>
+    <title>Sample App - Gatsby</title>
+    <link rel="icon" href="/lion.ico" />
+  </>
+)

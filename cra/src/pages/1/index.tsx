@@ -6,16 +6,16 @@ const Menu = () => {
       <h2>Group 1</h2>
       <Link to="/">Go Back Home</Link>
       <ol>
-        <Link to="/1/a"><li>Page 1A - Text: Lily</li></Link>
-        <Link to="/1/b"><li>Page 1B - Text: Essay</li></Link>
-        <Link to="/1/c"><li>Page 1C - Text: Gumbo</li></Link>
-        <Link to="/1/d"><li>Page 1D - Interactive component: 5s timer</li></Link>
-        <Link to="/1/e"><li>Page 1E - Interactive component: 60s timer</li></Link>
-        <Link to="/1/f"><li>Page 1F - Interactive component: Calculator</li></Link>
-        <Link to="/1/g"><li>Page 1G - API fetch list</li></Link>
-        <Link to="/1/h"><li>Page 1H - API fetch table 1</li></Link>
-        <Link to="/1/i"><li>Page 1I - API fetch table 2</li></Link>
-        <Link to="/1/j"><li>Page 1J - API fetch table 3</li></Link>
+        <li><Link to="/1/a">Page 1A - Text: Lily</Link></li>
+        <li><Link to="/1/b">Page 1B - Text: Essay</Link></li>
+        <li><Link to="/1/c">Page 1C - Text: Gumbo</Link></li>
+        <li><Link to="/1/d">Page 1D - Interactive component: 5s timer</Link></li>
+        <li><Link to="/1/e">Page 1E - Interactive component: 60s timer</Link></li>
+        <li><Link to="/1/f">Page 1F - Interactive component: Calculator</Link></li>
+        <li><Link to="/1/g">Page 1G - API fetch list</Link></li>
+        <li><Link to="/1/h">Page 1H - API fetch table 1</Link></li>
+        <li><Link to="/1/i">Page 1I - API fetch table 2</Link></li>
+        <li><Link to="/1/j">Page 1J - API fetch table 3</Link></li>
       </ol>
     </main>
   )

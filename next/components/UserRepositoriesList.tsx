@@ -39,7 +39,7 @@ const UserRepositoriesList: React.FC<UserRepositoriesProps> = ({ username }) => 
 
   return (
     <div>
-      <h2>{username}'s Repositories</h2>
+      <h2>{username}&apos;s Repositories</h2>
       <ul>
         {repositories.map((repo) => (
           <li key={repo.id}>

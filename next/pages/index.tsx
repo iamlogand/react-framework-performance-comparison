@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <main>
       <h2>Welcome to this sample app</h2>
-      <p>Hello world, I'm here for performance testing!</p>
+      <p>Hello world, I&apos;m here for performance testing!</p>
 
       <h3>Pages</h3>
       <p>
